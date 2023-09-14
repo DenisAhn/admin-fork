@@ -1,0 +1,15 @@
+.husky/_/
+.idea/
+node_modules/
+*.log
+lerna-debug.log
+packages/**/node_modules
+report.*.json
+.yarn
+.DS_Store
+.cache
+.tool-versions
+tsconfig.tsbuildinfo
+build
+public
+*.env

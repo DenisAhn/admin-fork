@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es6",
+    "skipLibCheck": true,
+    "paths": {
+      "components": ["components/*"],
+      "config": ["config/*"],
+      "images": ["images/*"],
+      "pages": ["pages/*"],
+      "stores": ["stores/*"],
+      "utils": ["utils/*"],
+      "styles": ["styles/*"],
+      "assets": ["assets/*"],
+      "types": ["types/*"],
+      "hooks": ["hooks/*"],
+      "entities": ["entities/*"]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "types"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "strictNullChecks": true,
+    "incremental": true,
+    "strictPropertyInitialization": false,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": "\\.module\\.scss$"
+        }
+      }
+    ]
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

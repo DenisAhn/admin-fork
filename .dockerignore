@@ -1,0 +1,8 @@
+.env.local
+.gitlab-ci.yml
+.git*
+kube
+.kube
+Dockerfile
+.dockerignore
+node_modules/

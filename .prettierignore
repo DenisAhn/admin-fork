@@ -1,0 +1,4 @@
+public
+*.json
+*.config.(t|j)s
+.*ignore
